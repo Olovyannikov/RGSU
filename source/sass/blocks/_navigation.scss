@@ -126,15 +126,10 @@
   .form__fieldset-controls--registration {
     width: 387px;
   }
-  .registration {
-    width: 490px;
-    &::before {
-      width: 461px;
-      left: 14px;
-    }
-    &::after {
-      width: 472px;
-      left: 9px;
-    }
+}
+
+@media (max-width: 500px) {
+  .navigation__button-wrapper {
+
   }
 }

@@ -6,7 +6,6 @@
   line-height: 26px;
 }
 
-
 .form__label {
   padding-bottom: 6px;
   &::after {
@@ -24,14 +23,13 @@
   font-size: 16px;
   line-height: 26px;
   font-family: inherit;
-  padding: 8px 0px 8px 16px;
-  box-sizing: border-box;
+  padding: 8px 0 8px 16px;
   &::placeholder {
     color: #C3CAD6;
     font-size: 16px;
     line-height: 26px;
     font-family: inherit;
-    padding: 8px 0px 8px 0;
+    padding: 8px 0 8px 0;
     box-sizing: border-box;
   }
   &:placeholder-shown {
@@ -39,7 +37,7 @@
     font-size: 16px;
     line-height: 26px;
     font-family: inherit;
-    padding: 8px 0px 8px 16px;
+    padding: 8px 0 8px 16px;
     box-sizing: border-box;
   }
   &--registration {
@@ -173,4 +171,25 @@
   display: block;
   position: absolute;
   background-color: #3464e0;
+}
+
+@media (max-width: 500px) {
+  .form__input {
+    width: 95%;
+  }
+  .form__fieldset-checkboxes {
+    width: 80%;
+  }
+  .form__fieldset-controls--registration {
+    display: flex;
+    min-height: 115px;
+    flex-direction: column;
+    width: 280px;
+    margin: 0;
+    align-items: center;
+    padding: 0;
+  }
+  .form__reject {
+    width: 180px;
+  }
 }

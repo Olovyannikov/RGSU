@@ -6,6 +6,8 @@
   margin: 0 auto;
   border-radius: 4px;
   display: none;
+
+  transition: .5s;
   &::after {
     position: absolute;
     content: '';
@@ -17,6 +19,8 @@
     top: -21px;
     left: 9px;
     z-index: -1;
+
+    transition: .5s;
   }
   &::before {
     position: absolute;
@@ -29,9 +33,30 @@
     top: -38px;
     left: 14px;
     z-index: -1;
+
+    transition: .5s;
   }
 }
 
 .authorization__form {
   padding-left: 68px;
+}
+
+@media (max-width: 500px) {
+  .authorization {
+    width: 95%;
+    box-sizing: border-box;
+    &::before {
+      left: 9%;
+      width: 80%;
+    }
+    &::after {
+      width: 90%;
+      left: 5%;
+    }
+  }
+
+  .authorization__form {
+    padding-left: 20px;
+  }
 }

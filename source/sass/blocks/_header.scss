@@ -39,6 +39,15 @@
   align-items: center;
 }
 
-@media (max-width: 1200px) {
-
+@media (max-width: 500px) {
+  .page-header {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .page-header__title {
+    display: none;
+  }
+  .page-header__logo {
+    width: 230px;
+  }
 }

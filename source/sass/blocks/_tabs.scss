@@ -4,6 +4,7 @@
   display: flex;
   justify-content: center;
   position: relative;
+  transition: .5ms;
 }
 
 .tabs__control {
@@ -23,8 +24,7 @@
   }
   &--active {
     color: #3464E0;
-    transition: all .1s linear;
-
+    transition: .5ms;
     &:hover {
       color: #3464E0;
     }
@@ -39,4 +39,14 @@
 
 .active-tab {
   display: block;
+}
+
+@media (max-width: 500px) {
+  .tabs__control {
+    left: 25%;
+    top: 20px;
+  }
+  .tabs__control-registration {
+    top: 50px;
+  }
 }
