@@ -3,6 +3,7 @@
 1. HTML5 / CSS3;
 2. Gulp;
 3. SASS; 
+4. ES6
 
 #View
 https://olovyannikov.github.io/RGSU/build
