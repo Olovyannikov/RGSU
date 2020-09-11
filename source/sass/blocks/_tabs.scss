@@ -4,7 +4,7 @@
   display: flex;
   justify-content: center;
   position: relative;
-  transition: .5ms;
+  transition: .5s;
 }
 
 .tabs__control {
@@ -24,7 +24,7 @@
   }
   &--active {
     color: #3464E0;
-    transition: .5ms;
+    transition: .5s;
     &:hover {
       color: #3464E0;
     }

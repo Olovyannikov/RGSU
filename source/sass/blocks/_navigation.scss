@@ -111,8 +111,11 @@
     min-height: 100px;
     background-color: rgba(52, 100, 224, 0.9);
     z-index: 999;
+
     &--open {
       display: block;
+
+      transition: .5s;
     }
   }
   .navigation__list-item {
@@ -122,14 +125,3 @@
   }
 }
 
-@media (max-width: 900px) {
-  .form__fieldset-controls--registration {
-    width: 387px;
-  }
-}
-
-@media (max-width: 500px) {
-  .navigation__button-wrapper {
-
-  }
-}
