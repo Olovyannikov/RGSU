@@ -1,0 +1,38 @@
+.registration {
+  position: relative;
+  background: #FFFFFF;
+  width: 890px;
+  min-height: 408px;
+  margin: 0 auto;
+  border-radius: 4px;
+  display: none;
+  &::after {
+    position: absolute;
+    content: '';
+    display: block;
+    width: 856px;
+    height: 298px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 4px;
+    top: -21px;
+    left: 16px;
+    z-index: -1;
+  }
+  &::before {
+    position: absolute;
+    content: '';
+    display: block;
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 4px;
+    width: 838px;
+    height: 330px;
+    top: -38px;
+    left: 25px;
+    z-index: -1;
+    transition: all 2s linear;
+  }
+}
+
+.registration__form {
+  padding-left: 34px;
+}
