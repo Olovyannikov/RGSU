@@ -1,16 +1,17 @@
-##Stack
+#Stack
 
 1. HTML5 / CSS3;
 2. Gulp;
 3. SASS; 
+4. ES6
 
-##View
+#View
 https://olovyannikov.github.io/RGSU/build
 
-##Source code
+#Source code
 https://github.io/Olovyannikov/RGSU
 
-##Install
+#Install
 
 1. Download or clone this project;
 2. Use `npm install` for installing dependencies;
