@@ -223,28 +223,28 @@
   font-size: 16px;
   line-height: 26px;
   font-family: inherit;
-  padding: 8px 70px 8px 16px;
+  padding: 8px 0px 8px 16px;
   box-sizing: border-box; }
   .form__input:-ms-input-placeholder {
     color: #C3CAD6;
     font-size: 16px;
     line-height: 26px;
     font-family: inherit;
-    padding: 8px 70px 8px 0;
+    padding: 8px 0px 8px 0;
     box-sizing: border-box; }
   .form__input::placeholder {
     color: #C3CAD6;
     font-size: 16px;
     line-height: 26px;
     font-family: inherit;
-    padding: 8px 70px 8px 0;
+    padding: 8px 0px 8px 0;
     box-sizing: border-box; }
   .form__input:placeholder-shown {
     color: #C3CAD6;
     font-size: 16px;
     line-height: 26px;
     font-family: inherit;
-    padding: 8px 70px 8px 16px;
+    padding: 8px 0px 8px 16px;
     box-sizing: border-box; }
   .form__input--registration {
     max-width: 280px; }

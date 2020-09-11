@@ -24,14 +24,14 @@
   font-size: 16px;
   line-height: 26px;
   font-family: inherit;
-  padding: 8px 70px 8px 16px;
+  padding: 8px 0px 8px 16px;
   box-sizing: border-box;
   &::placeholder {
     color: #C3CAD6;
     font-size: 16px;
     line-height: 26px;
     font-family: inherit;
-    padding: 8px 70px 8px 0;
+    padding: 8px 0px 8px 0;
     box-sizing: border-box;
   }
   &:placeholder-shown {
@@ -39,7 +39,7 @@
     font-size: 16px;
     line-height: 26px;
     font-family: inherit;
-    padding: 8px 70px 8px 16px;
+    padding: 8px 0px 8px 16px;
     box-sizing: border-box;
   }
   &--registration {
