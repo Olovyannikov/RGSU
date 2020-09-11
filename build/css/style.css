@@ -399,7 +399,8 @@ body {
     padding-left: 20px; }
   .registration {
     width: 95%;
-    box-sizing: border-box; }
+    box-sizing: border-box;
+    margin-bottom: 20px; }
   .registration::before {
     left: 9%;
     width: 80%; }
@@ -408,8 +409,10 @@ body {
     left: 5%; }
   .registration__form {
     padding-left: 20px; }
+  .tabs {
+    width: 100%; }
   .tabs__control {
-    left: 25%;
+    left: 33%;
     top: 20px; }
   .tabs__control-registration {
     top: 50px; }
@@ -420,7 +423,7 @@ body {
   .form__fieldset-controls--registration {
     display: -ms-flexbox;
     display: flex;
-    min-height: 115px;
+    min-height: 135px;
     -ms-flex-direction: column;
     flex-direction: column;
     margin: 0;
@@ -429,7 +432,8 @@ body {
     padding: 0; }
   .form__reject {
     width: 180px;
-    margin-right: 0; } }
+    margin-right: 0;
+    margin-bottom: 20px; } }
 
 @media (max-width: 1200px) {
   .navigation__button-wrapper {

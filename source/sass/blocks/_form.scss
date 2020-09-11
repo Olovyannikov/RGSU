@@ -183,7 +183,7 @@
   }
   .form__fieldset-controls--registration {
     display: flex;
-    min-height: 115px;
+    min-height: 135px;
     flex-direction: column;
     margin: 0;
     align-items: center;
@@ -192,5 +192,6 @@
   .form__reject {
     width: 180px;
     margin-right: 0;
+    margin-bottom: 20px;
   }
 }

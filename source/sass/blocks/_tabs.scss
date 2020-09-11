@@ -42,8 +42,11 @@
 }
 
 @media (max-width: 500px) {
+  .tabs {
+    width: 100%;
+  }
   .tabs__control {
-    left: 25%;
+    left: 33%;
     top: 20px;
   }
   .tabs__control-registration {
