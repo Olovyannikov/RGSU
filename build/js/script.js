@@ -4,6 +4,13 @@ let tabControlReg = document.querySelector('.tabs__control-registration');
 let authorization = document.querySelector('.authorization');
 let registration = document.querySelector('.registration');
 
+let menuButton = document.querySelector('.navigation__button-wrapper');
+let mobileNav = document.querySelector('.navigation__list');
+
+menuButton.onclick = function() {
+    mobileNav.classList.toggle('navigation__list--open')
+}
+
 tabControlAuth.onclick = function () {
     tabControlAuth.classList.add('tabs__control--active');
     tabControlReg.classList.remove('tabs__control--active');

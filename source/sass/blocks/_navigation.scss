@@ -56,3 +56,85 @@
     background: url("../img/logout.svg");
   }
 }
+
+.navigation__button {
+  display: none;
+}
+
+@media (max-width: 1200px) {
+  .navigation__button-wrapper {
+    order: 3;
+    cursor: pointer;
+    padding-top: 5px;
+  }
+  .navigation__button {
+    position: relative;
+    display: block;
+    border: none;
+    background: #fff;
+    width: 50px;
+    height: 2px;
+    cursor: pointer;
+    &:after {
+      content: '';
+      position: absolute;
+      cursor: pointer;
+      width: 50px;
+      height: 2px;
+      background-color: #fff;
+      left: 0;
+      top: 10px;
+    }
+    &:before {
+      content: '';
+      position: absolute;
+      cursor: pointer;
+      width: 50px;
+      height: 2px;
+      background-color: #fff;
+      left: 0;
+      top: 20px;
+    }
+  }
+  .navigation {
+    justify-content: space-around;
+  }
+  .navigation__list {
+    display: none;
+    justify-content: space-around;
+    position: absolute;
+    top: 83px;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    right: 0;
+    min-height: 100px;
+    background-color: rgba(52, 100, 224, 0.9);
+    z-index: 999;
+    &--open {
+      display: block;
+    }
+  }
+  .navigation__list-item {
+    display: block;
+    padding-bottom: 10px;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 900px) {
+  .form__fieldset-controls--registration {
+    width: 387px;
+  }
+  .registration {
+    width: 490px;
+    &::before {
+      width: 461px;
+      left: 14px;
+    }
+    &::after {
+      width: 472px;
+      left: 9px;
+    }
+  }
+}

@@ -1,7 +1,8 @@
 //based-block styles
 
 .page-header {
-  width: 1440px;
+  width: 100%;
+  max-width: 1400px;
   margin: 0 auto; //centered block
   box-sizing: border-box;
   padding: 14px 45px 114px 62px;
@@ -36,4 +37,8 @@
   line-height: 28px;
   display: flex;
   align-items: center;
+}
+
+@media (max-width: 1200px) {
+
 }

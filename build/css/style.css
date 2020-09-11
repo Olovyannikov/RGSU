@@ -9,7 +9,8 @@
   font-style: normal; }
 
 .page-header {
-  width: 1440px;
+  width: 100%;
+  max-width: 1400px;
   margin: 0 auto;
   box-sizing: border-box;
   padding: 14px 45px 114px 62px; }
@@ -93,6 +94,9 @@
     width: 26px;
     height: 25px;
     background: url("../img/logout.svg"); }
+
+.navigation__button {
+  display: none; }
 
 .authorization {
   position: relative;
@@ -365,4 +369,72 @@ body {
   font-family: 'Russia', Arial, sans-serif;
   margin: 0;
   color: #FFFFFF;
-  background-color: #3464E0; }
+  background-color: #3464E0;
+  overflow-x: hidden; }
+
+@media (max-width: 1200px) {
+  .navigation__button-wrapper {
+    -ms-flex-order: 3;
+    order: 3;
+    cursor: pointer;
+    padding-top: 5px; }
+  .navigation__button {
+    position: relative;
+    display: block;
+    border: none;
+    background: #fff;
+    width: 50px;
+    height: 2px;
+    cursor: pointer; }
+  .navigation__button:after {
+    content: '';
+    position: absolute;
+    cursor: pointer;
+    width: 50px;
+    height: 2px;
+    background-color: #fff;
+    left: 0;
+    top: 10px; }
+  .navigation__button:before {
+    content: '';
+    position: absolute;
+    cursor: pointer;
+    width: 50px;
+    height: 2px;
+    background-color: #fff;
+    left: 0;
+    top: 20px; }
+  .navigation {
+    -ms-flex-pack: distribute;
+    justify-content: space-around; }
+  .navigation__list {
+    display: none;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    position: absolute;
+    top: 83px;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    right: 0;
+    min-height: 100px;
+    background-color: rgba(52, 100, 224, 0.9);
+    z-index: 999; }
+  .navigation__list--open {
+    display: block; }
+  .navigation__list-item {
+    display: block;
+    padding-bottom: 10px;
+    font-size: 18px; } }
+
+@media (max-width: 900px) {
+  .form__fieldset-controls--registration {
+    width: 387px; }
+  .registration {
+    width: 490px; }
+  .registration::before {
+    width: 461px;
+    left: 14px; }
+  .registration::after {
+    width: 472px;
+    left: 9px; } }
