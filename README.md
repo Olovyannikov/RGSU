@@ -9,7 +9,7 @@
 https://olovyannikov.github.io/RGSU/build
 
 # Source code
-https://github.io/Olovyannikov/RGSU
+https://github.com/Olovyannikov/RGSU
 
 # Install
 
